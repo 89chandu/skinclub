@@ -1,0 +1,86 @@
+/* src/styles/CreateInvoice.css */
+
+/* Container styles */
+.create-invoice-container {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    /* background-color: white; */
+    padding: 30px;
+    margin: 30px;
+}
+
+/* Headings styles */
+.create-invoice-container h1,
+.create-invoice-container h2 {
+    text-align: left;
+}
+
+.create-invoice-container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0em;
+    color: #4C4D4F;
+}
+
+/* Card styles */
+.invoice-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Table styles */
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.invoice-table th, .invoice-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+    text-align: left;
+}
+
+/* Button styles */
+.view-more-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Search bar styles */
+.search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    background-color: white;
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.date-sort-dropdown {
+    width: 25%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
