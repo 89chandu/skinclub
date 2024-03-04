@@ -1,15 +1,12 @@
 import React from 'react'
-import '../styles/Sidebar.css'
-
-
+import style from './Sidebar.module.css';
 function Sidebar() {
   return (
-    <div className='sidebar'>
-        <div className='sidebarNavigation'>
+    <div className={style.sidebar}>
+        <div className={style.sidebarNavigation}>
             <li>Overview</li>
             <li>Profile</li>
             <li>Appointments</li>
-            <li>History</li>
             <li>History
                 <ul>
                     <li>Videos</li>
@@ -23,16 +20,18 @@ function Sidebar() {
                     <li>Procedure Information</li>
                 </ul>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-
-       
+            <li>Aftercare
+                <ul>
+                    <li>Quizzes</li>
+                    <li>Health & Skin Assesment</li>
+                </ul>
+            </li>
+            <li>Finances</li>
+            <li>Virtual Consultation</li>
+            
 
            
         </div>
-        
     </div>
   )
 }
