@@ -4,9 +4,8 @@ function Minitemplate() {
   return (
        
                 <div className={Template.templateContentWithData}>
-                 
                   <div className={Template.headerImageForTemplate}>
-                    <img src={'/skinclub.png'} alt="Header Image" />
+                    <img src={'/imageHeader.png'} alt="Header Image" />
                   </div>
                   <div className={Template.mainline}>
                     <span>SUMMARY</span>
@@ -89,16 +88,8 @@ function Minitemplate() {
                       <b>Notes/Terms</b>
                       <p>Lorem ipsum dolor ipsum dolor</p>
                     </div>
-                    
                   </div>
-
-                  <div className={Template.buttonContainer}>
-          <button className={Template.yourButtonClass}>Create New Invoice</button>
-        </div>
-                  
                 </div>
-
-                
            
          
 

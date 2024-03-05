@@ -1,20 +1,19 @@
-// src/pages/Home.js (or index.js, depending on your file name)
-import React from 'react';
-import CreateInvoice from '../pages/createInvoices';
-import Header from '../pages/Header';
-import Sidebar from '../pages/Sidebar';
-import '../styles/Home.css'; // Create a new stylesheet for Home if needed
+import Image from "next/image";
+import styles from "./page.module.css";
+import Header from "./component/Header/Header";
+import Sidebar from "./component/sidebar/sidebar";
+import Center from "./component/Center/Center";
+import Invoice from "./component/invoice/Center";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="home-container">
-      <Header />
-      <div className="main-content">
-        <Sidebar />
-        <CreateInvoice />
-      </div>
+    <>    
+    <Header/>
+    <div className={styles.mainStyle}>
+      <Sidebar/>
+      <Center/>
+      {/* <Invoice/> */}
     </div>
+    </>
   );
-};
-
-export default Home;
+}

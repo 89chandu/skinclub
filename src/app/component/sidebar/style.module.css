@@ -3,7 +3,7 @@
     background: #FFFFFF;
     /* background-color: aqua; */
     min-height: 100vh;
-    padding: 2% 0 0 2%;
+    padding: 2% 0 10% 2%;
 }
 
 .sidebarNavigation>li {
@@ -30,4 +30,10 @@
     letter-spacing: 0em;
     text-align: left;
 
+} 
+@media (max-width:980px) {
+    .sidebar{
+        display: none;
+    }
+    
 }

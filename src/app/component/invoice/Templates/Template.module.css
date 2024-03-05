@@ -1,5 +1,5 @@
 .template{
-    width: 75%;    
+    width: 72%;    
     background-color: #ffff;
 }
 .templateNavigation{
@@ -9,7 +9,23 @@
     height: 50px;   
 }
 .templateNavigation>div{
-    margin-left: 5px;    
+    color: #acaeb1;
+}
+.templateNavigation>div{
+    margin: 5%;
+}
+.templateNavigation>div:nth-child(2){
+    border-bottom: 2px solid;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: #000000; 
+}
+.mainTemplateCode{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .templateContent{
     width: 100%;
@@ -20,11 +36,24 @@
     justify-content: space-around;
 }
 .templateContentWithData{
-    width: 100%;
-    min-height: 524.46px;
+    width: 23%;
+    min-height: 224.46px;
     margin: 4px;
     border: 1px solid #4c4d4f2b;
     border-radius:5px;
+}
+@media (max-width:980px) {
+    .template{
+        width: 100%;
+        background-color: #FFF9F1;
+    }    
+    
+}
+@media (max-width:480px) {
+    .templateContentWithData{
+        width: 31%;
+    }
+    
 }
 .headerImageForTemplate{
     width: 100%;
@@ -46,7 +75,7 @@
     padding-left: 7px;
 }
 .mainline>div>div{
-    border-bottom:0.5px solid #4C4D4F;
+    border-bottom:1px solid #4C4D4F;
 }
 
 .templateName{
@@ -143,30 +172,34 @@
 }
 .notes{
     width: 100%;
-    height: 40px;
+    height: 30px;
     background-color: #d2cdcd3b;
     font-size: 5px;
     padding: 5%;
     margin-bottom: 5%;
 }
-
-.yourButtonClass {
-    width: 174px;
-    height: 40px;
-  
-    border-radius: 24px;
-    background-color: #000000;
-    font-family: Cabin;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: white;
-    margin: auto;
-    display: block; 
+.Forms{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Forms>div{
+    width: 45%;
+}
+.Forms>div>label{
+    color: #00000080;
+    font-size: 12px;
+}
+.input{
+    width: 100%;
+    height: 43px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
   }
-  
-  
 
-  
+

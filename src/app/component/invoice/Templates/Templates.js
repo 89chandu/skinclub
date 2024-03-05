@@ -16,16 +16,9 @@ function Templates() {
       </div>
     <div  className={Template.templateContent}>
      <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
-     <Minitemplate/>
     </div>
     </div>
   )
 }
 
-export default Templates;
+export default Templates
