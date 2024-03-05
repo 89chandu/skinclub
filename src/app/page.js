@@ -4,6 +4,9 @@ import Header from "./component/Header/Header";
 import Sidebar from "./component/sidebar/sidebar";
 import Center from "./component/Center/Center";
 import Invoice from "./component/invoice/Center";
+import CreateInvoice from "./component/createinovice/createInvoices";
+import Gridview from "./component/Gridview/Gridview";
+import EditInvoice from "./component/EditInvoice/EditInvoice";
 
 export default function Home() {
   return (
@@ -11,7 +14,10 @@ export default function Home() {
     <Header/>
     <div className={styles.mainStyle}>
       <Sidebar/>
-      <Center/>
+      {/* <Center/> */}
+      {/* <CreateInvoice/> */}
+      {/* <Gridview/> */}
+       <EditInvoice/>
       {/* <Invoice/> */}
     </div>
     </>
