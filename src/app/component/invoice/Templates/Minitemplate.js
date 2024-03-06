@@ -24,6 +24,8 @@ function Minitemplate() {
           <label htmlFor="uname">Select Date</label>
           <input type="text" placeholder="Enter Username" name="uname" className={Template.input} required/>
         </div>
+
+        
       </div>
     </>
   )

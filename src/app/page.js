@@ -19,8 +19,8 @@ export default function Home() {
       {/* <CreateInvoice/> */}
       {/* <Gridview/> */}
        {/* <EditInvoice/> */}
-       <PaymentForm/>
-      {/* <Invoice/> */}
+       {/* <PaymentForm/> */}
+      <Invoice/>
     </div>
     </>
   );

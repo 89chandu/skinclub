@@ -141,17 +141,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-direction: row-reverse; /* Allow items to wrap to the next line */
+
 }
 
 .leftContainer {
+  display: flex;
   flex: 1;
   padding: 20px;
   box-sizing: border-box; /* Include padding in the width calculation */
 }
 
 .rightContainer {
-  width: 100%; /* Take up the full width on the second line */
+
+  width: 100%; 
   padding: 20px;
   box-sizing: border-box;
 }
