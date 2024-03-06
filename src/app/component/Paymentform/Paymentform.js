@@ -1,9 +1,12 @@
 // components/PaymentForm.js
 import React from 'react';
 import styles from './Paymentform.module.css';
+import PreviewInvoice from '../Center/PreviewInvoice/PreviewInvoice';
 
 const PaymentForm = () => {
   return (
+    <div className={styles.container}>
+    <div className={styles.leftContainer}>
     <div className={styles.mainContainer}>
       <div className={styles.main_container}>
         <div className={styles.heading}>
@@ -66,6 +69,11 @@ const PaymentForm = () => {
               <button className={styles.confirmButton}>Confirm Payment</button>
             </div>
           </form>
+        </div>
+        </div>
+        </div>
+        <div className={styles.rightContainer}>
+          <PreviewInvoice />
         </div>
       </div>
     </div>

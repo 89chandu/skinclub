@@ -134,3 +134,25 @@
   color: white;
   border-radius: 24px;
 }
+
+
+/* Paymentform.module.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row-reverse; /* Allow items to wrap to the next line */
+}
+
+.leftContainer {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.rightContainer {
+  width: 100%; /* Take up the full width on the second line */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
