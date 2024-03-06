@@ -8,7 +8,7 @@ import NavigationBar from './component/Navigationbar';
 import CreateInvoice from "./component/createinovice/createInvoices";
 import EditInvoice from "./component/EditInvoice/EditInvoice";
 import Payment from './component/payment/payment';
-import PaymentForm from './component/PaymentForm/PaymentForm';
+import PaymentForm from './component/Paymentform/PaymentForm';
 import Invoice from "./component/invoice/Center";
 import PopUp from './component/PopUp/PopUp';
 import styles from "./page.module.css";

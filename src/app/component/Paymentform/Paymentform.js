@@ -1,6 +1,6 @@
 // components/PaymentForm.js
 import React from 'react';
-import styles from './Paymentform.module.css';
+import styles from './PaymentForm.module.css';
 import PreviewInvoice from './PreviewInvoice/PreviewInvoice';
 
 const PaymentForm = () => {
