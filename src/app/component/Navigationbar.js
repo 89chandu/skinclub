@@ -19,7 +19,7 @@ const NavigationBar = ({ setDisplayedComponent }) => {
         
       <button onClick={() => handleComponentChange('EditInvoice')}>Edit Invoice</button>
       
-      <button onClick={() => handleComponentChange('PaymentForm')}>Payment Form</button>
+      {/* <button onClick={() => handleComponentChange('PaymentForm')}>Payment Form</button> */}
       <button onClick={() => handleComponentChange('Payment')}>Payment</button>
       <button onClick={() => handleComponentChange('PopUp')}>PopUp</button>
      
