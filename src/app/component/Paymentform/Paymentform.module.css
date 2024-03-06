@@ -1,115 +1,136 @@
-.mainContainer {
-    background-color: #FFF9F1;
-    padding: 2rem;
-    width: 100vw;
-    margin: 0 auto;
-    height: 100vh;
-  }
-
 .main_container {
-background-color: #FFF9F1;
-padding: 2rem;
-width: 100vw;
-margin: 0 auto; 
-height: 100vh;
+  /* Add this property to display flex and arrange child elements in a column */
+  display: flex;
+  flex-direction: column;
 }
 
-/* Style the heading section */
-.heading {
-margin-bottom: 2rem;
+.mainContainer{
+  background-color: white;
+
+  margin: 50px;
+  width: 47%;
 }
 
-.heading h2 {
-color: #333;
-margin-bottom: 5px;
+
+
+.payMethod {
+  margin-bottom: 10px; /* Add margin to separate from the next section */
 }
 
-/* Style the Payment body */
-.PayMent-body {
-background-color: white;
-padding: 20px;
-border-radius: 1rem;
-width: 60%; 
-box-shadow: 0 0 6px 0.5px rgb(200, 200, 200);
+.heading h2{ 
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0em;
+  color: #4C4D4F;
 }
 
-/* Style the Payment Method section */
-.pay-method {
-margin-bottom: 20px;
+.heading p {
+  margin-left: 50px;
+
 }
 
-.pay-method h2 {
-margin-bottom: 10px;
-font-size: 20px;
+
+.payMethod h2 {
+
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0em;
+  color: #4C4D4F;
+  text-align: left;
+  margin-left: -10px;
+  padding: 15px;
 }
 
-.pay-options {
-display: flex;
-flex-wrap: wrap; 
-gap: 10px;
-align-items: center;
+.payOptions {
+  display: flex;
+  flex-wrap: wrap; /* Allow options to wrap to the next line if needed */
 }
 
-/* Style the Payment Details section */
-.payment-details {
-margin-bottom: 20px;
+.payOptions input,
+.payOptions label {
+  margin-right: 15px; /* Add margin between radio buttons and labels */
 }
 
-.label {
-color: #515151;
+.paymentDetails h2{
+  font-family: Cabin;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
-.details_input {
-display: grid;
-grid-template-columns: 1fr 1fr; 
-grid-gap: 15px;
-border: none;
+.paymentDetails {
+
+
+  margin-top: 30px; /* Add margin to separate from the previous section */
+}
+.PayMentBody form {
+  padding: 60px;
+  margin-top: -40px;
 }
 
-@media (max-width: 400px) {
-.details_input {
-    grid-template-columns: 1fr; /* Change to a single column on screens 768px and below */
-}
-}
-
-.payment-details h2 {
-margin-bottom: 10px;
-font-size: 20px;
+.detailsInput {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Style the Terms and Conditions paragraph */
-.form p {
-margin-top: 15px;
+/* components/PaymentForm.module.css */
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
-/* Style the Confirm button section */
+.row input {
+  width: 250px;
+  height: 43px;
+  top: 466px;
+  left: 655px;
+  border: 0.5px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.detailsInput div {
+  width: 95%; /* Each detail input takes the full width */
+  margin-bottom: 15px; /* Add margin between detail inputs */
+}
+
+.termsPara {
+  margin-top: 20px; /* Add margin to separate from the previous section */
+}
+
 .buttons {
-display: flex;
-flex-direction: column; /* Stack buttons vertically on smaller screens */
-justify-content: space-evenly;
+  margin-top: 20px;
+
+  /* Add margin to separate from the previous section */
 }
 
-.terms-para {
-margin-bottom: 20px;
+.saveButton {
+  width: 184px;
+  height: 48px;
+  background-color: white;
+  top: 672px;
+  left: 294px;
+  border-radius: 24px;
+  border: 0.5px solid #ccc;
+  margin: 10px;
+
 }
 
-/* Style the buttons */
-.save-button,
-.conform-button {
-padding: 10px 20px;
-background-color: #ffffff;
-/* Blue color for buttons */
-border: none;
-border: solid 1px black;
-border-radius: 30px;
-font-size: 1rem;
-font-weight: 500;
+.confirmButton {
+  width: 184px;
+  background-color: black;
+  height: 48px;
+  top: 672px;
+  left: 493px;
+  color: white;
+  border-radius: 24px;
 }
-
-/* Hover effect on buttons */
-.save-button:hover,
-.conform-button:hover {
-background-color: #000000;
-color: white;
-}
-  
