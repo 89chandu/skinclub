@@ -1,9 +1,9 @@
 // components/PaymentForm.js
 import React from 'react';
-import styles from './PaymentForm.module.css';
-import PreviewInvoice from '../Payments/PreviewInvoice/PreviewInvoice';
+import styles from './Payments.module.css';
+import PreviewInvoice from './PreviewInvoice/PreviewInvoice';
 
-const PaymentForm = () => {
+const Payments = () => {
   return (
     <div className={styles.container}>
     <div className={styles.leftContainer}>
@@ -80,4 +80,4 @@ const PaymentForm = () => {
   );
 };
 
-export default PaymentForm;
+export default Payments;
