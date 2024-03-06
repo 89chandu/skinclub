@@ -7,6 +7,7 @@ import Invoice from "./component/invoice/Center";
 import CreateInvoice from "./component/createinovice/createInvoices";
 import Gridview from "./component/Gridview/Gridview";
 import EditInvoice from "./component/EditInvoice/EditInvoice";
+import PaymentForm from "./component/Paymentform/Paymentform";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
       {/* <Center/> */}
       {/* <CreateInvoice/> */}
       {/* <Gridview/> */}
-       <EditInvoice/>
+       {/* <EditInvoice/> */}
+       <PaymentForm/>
       {/* <Invoice/> */}
     </div>
     </>
