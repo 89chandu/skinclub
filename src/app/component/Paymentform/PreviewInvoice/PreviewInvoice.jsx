@@ -102,10 +102,10 @@ function PreviewInvoice() {
         </div>
 
       </div>
-      <div className={Preview.button}>
-        <div>Save</div>
-        <div>Save & send</div>
-      </div>
+      {/* <div className={Preview.button}> */}
+        {/* <div>Save</div> */}
+        {/* <div>Save & send</div> */}
+      {/* </div> */}
     </div>
   )
 }

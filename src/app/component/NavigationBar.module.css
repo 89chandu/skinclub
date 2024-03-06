@@ -1,0 +1,12 @@
+/* components/NavigationBar.module.css */
+.navBar {
+   display: flex;
+   
+  }
+  
+  .navBar button {
+   
+    margin: 20px;
+    margin-right: 10px; /* Adjust the margin as needed for spacing between buttons */
+  }
+  
